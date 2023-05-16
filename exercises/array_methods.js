@@ -7,3 +7,9 @@ let cart = [
     {item: "Ice Cream - Vanilla", price: 6.81, quantity: 1},
     {item: "Apples", price: 0.66, quantity: 6}
    ];
+   const result = cart.map(function(cartItem){
+    return cartItem.item;
+   }
+   
+   );
+   console.log(result);
